@@ -1,0 +1,9 @@
+"Patch"
+{
+	include "materials/models/player/old_mercenary/mercenary_base_gib.vmt"
+	
+	insert
+	{
+		"$baseTexture" "models/player/old_mercenary/mercenary_red"
+	}
+}
