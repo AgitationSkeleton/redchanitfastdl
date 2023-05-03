@@ -624,55 +624,6 @@ If only they were here to see you, now..."														// It should be noted th
 			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
 			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
 		}
-		"4002"
-		{
-			"name"						"Overhealer"
-			"item_class"				"tf_weapon_medigun"
-			"show_in_armory"			"1"
-			
-	//		"baseitem"					"1"
-			
-			"item_slot"					"secondary"
-			"item_quality"				"normal"
-			"item_name"					"Overhealer"
-			"item_type_name"			"#TF_Weapon_Medigun"
-			"propername"				"1"
-			
-			"min_ilevel"				"5"
-			"max_ilevel"				"5"
-			
-			"image_inventory"			"backpack/weapons/w_models/w_overhealer"
-			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
-			"model_world"				"models/weapons/w_models/w_overhealer_new.mdl"
-			"model_player"				"models/weapons/v_models/v_overhealer_medic_new.mdl"
-			"attach_to_hands"			"2"
-			
-			"used_by_classes"
-			{
-				"medic"					"1"
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"					"10 0 -9"
-			}
-			"attributes"
-			{
-				"heal rate bonus"
-				{
-					"attribute_class"	"mult_medigun_healrate"
-					"value"	"3.25"
-				}
-				"ubercharge rate penalty"
-				{
-					"attribute_class"	"mult_medigun_uberchargerate"
-					"value"	"0.0"
-				}
-			}
-
-			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
-			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
-		}
 		"4003"
 		{
 			"name"						"Poacher's Pride"
@@ -913,6 +864,55 @@ If only they were here to see you, now..."														// It should be noted th
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"	"ui/item_light_gun_drop.wav"
+		}
+		"7702"
+		{
+			"name"						"New_Overhealer"
+			"item_class"				"tf_weapon_medigun"
+			"show_in_armory"			"1"
+			
+	//		"baseitem"					"1"
+			
+			"item_slot"					"secondary"
+			"item_quality"				"normal"
+			"item_name"					"Overhealer"
+			"item_type_name"			"#TF_Weapon_Medigun"
+			"propername"				"1"
+			
+			"min_ilevel"				"5"
+			"max_ilevel"				"5"
+			
+			"image_inventory"			"backpack/weapons/w_models/w_overhealer"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"				"models/weapons/w_models/w_overhealer_new.mdl"
+			"model_player"				"models/weapons/v_models/v_overhealer_medic_new.mdl"
+			"attach_to_hands"			"2"
+			
+			"used_by_classes"
+			{
+				"medic"					"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"10 0 -9"
+			}
+			"attributes"
+			{
+				"heal rate bonus"
+				{
+					"attribute_class"	"mult_medigun_healrate"
+					"value"	"3.25"
+				}
+				"ubercharge rate penalty"
+				{
+					"attribute_class"	"mult_medigun_uberchargerate"
+					"value"	"0.0"
+				}
+			}
+
+			"mouse_pressed_sound"		"#ui/item_metal_weapon_pickup.wav"
+			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
 		}
 	}
 }
