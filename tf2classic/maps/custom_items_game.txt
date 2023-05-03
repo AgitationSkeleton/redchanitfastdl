@@ -825,7 +825,7 @@ If only they were here to see you, now..."														// It should be noted th
 		{
 			"name"						"Super Shotgun"
 			"item_logname"				"supershotgun"
-			"item_iconname"				"doubleshotgun"
+			"item_iconname"				"supershotgun"
 			"item_class"				"tf_weapon_doubleshotgun"
 			"show_in_armory"			"1"
 			"propername"				"1"
@@ -841,6 +841,7 @@ If only they were here to see you, now..."														// It should be noted th
 			"used_by_classes"
 			{
 				"soldier"					"1"
+				"mercenary"					"1"
 			}
 			"static_attrs"
 			{
@@ -848,6 +849,11 @@ If only they were here to see you, now..."														// It should be noted th
 			}
 			"attributes"
 			{
+				"damage bonus"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"1.5"
+				}
 				"scattergun has knockback"
 				{
 					"attribute_class"	"set_scattergun_has_knockback"
@@ -867,11 +873,6 @@ If only they were here to see you, now..."														// It should be noted th
 				{
 					"attribute_class"	"weapon_enemy_knockback_mod"
 					"value"				"0.2"
-				}
-				"special taunt"
-				{
-					"attribute_class"	"special_taunt"
-					"value"				"1"
 				}
 			}			
 			"visuals"
