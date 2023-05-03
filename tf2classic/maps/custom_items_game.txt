@@ -439,12 +439,7 @@ If only they were here to see you, now..."														// It should be noted th
 			"mouse_pressed_sound"		"#weapons/quake_ammo_pickup_remastered.wav"				
 			"drop_sound"				"#weapons/quake_rpg_reload_remastered.wav"
 		}
-		//-----------------------------
-//-----------------------------
-//--Super Shitgun
-//-----------------------------
-//-----------------------------
-	"3438"
+		"3438"
 		{
 			"name"						"Super Shotgun"
 			"item_logname"				"supershotgun"
@@ -452,8 +447,8 @@ If only they were here to see you, now..."														// It should be noted th
 			"item_class"				"tf_weapon_doubleshotgun"
 			"show_in_armory"			"1"
 			"propername"				"1"
-			"item_name"					"#TF_Weapon_TwinBarrel"
-			"item_description"			"#TF_Weapon_TwinBarrel_Desc"
+			"item_name"					"Super Shotgun"
+			"item_description"			"Test"
 			"item_type_name"			"#TF_Weapon_DoubleBarrelShotgun"
 			"item_slot"					"secondary"
 			"anim_slot"					"ITEM2"
