@@ -439,67 +439,6 @@ If only they were here to see you, now..."														// It should be noted th
 			"mouse_pressed_sound"		"#weapons/quake_ammo_pickup_remastered.wav"				
 			"drop_sound"				"#weapons/quake_rpg_reload_remastered.wav"
 		}
-		"3438"
-		{
-			"name"						"Super Shotgun"
-			"item_logname"				"supershotgun"
-			"item_iconname"				"doubleshotgun"
-			"item_class"				"tf_weapon_doubleshotgun"
-			"show_in_armory"			"1"
-			"propername"				"1"
-			"item_name"					"Super Shotgun"
-			"item_description"			"Test"
-			"item_type_name"			"#TF_Weapon_DoubleBarrelShotgun"
-			"item_slot"					"secondary"
-			"anim_slot"					"ITEM2"
-			"image_inventory"			"backpack/weapons/w_models/w_supershotgun"
-			"model_world"				"models/weapons/w_models/w_supershotgun.mdl"
-			"model_player"				"models/weapons/v_models/v_supershotgun_soldier.mdl"
-			"attach_to_hands"			"2"
-			"used_by_classes"
-			{
-				"soldier"					"1"
-			}
-			"static_attrs"
-			{
-				"min_viewmodel_offset"					"7 -6 -5"	
-			}
-			"attributes"
-			{
-				"scattergun has knockback"
-				{
-					"attribute_class"	"set_scattergun_has_knockback"
-					"value"				"1"
-				}
-				"mod horizontal spread"
-				{
-					"attribute_class"	"mod_horizontal_spread"
-					"value"				"1"
-				}
-				"apply self knockback hidden"
-				{
-					"attribute_class"	"apply_self_knockback"
-					"value"				"260"
-				}
-				"weapon enemy knockback mod mult hidden"
-				{
-					"attribute_class"	"weapon_enemy_knockback_mod"
-					"value"				"0.2"
-				}
-				"special taunt"
-				{
-					"attribute_class"	"special_taunt"
-					"value"				"1"
-				}
-			}			
-			"visuals"
-			{				
-				"sound_single_shot"		"Weapon_DoubleShotgun.Single"
-				"sound_burst"			"Weapon_DoubleShotgun.SingleCrit"
-			}
-			"mouse_pressed_sound"		"#ui/item_wood_weapon_drop.wav"
-			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
-		}
 		"4000"
 		{
 			"name"						"Medic Shotgun"
@@ -881,6 +820,67 @@ If only they were here to see you, now..."														// It should be noted th
 			}
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"	"ui/item_light_gun_drop.wav"
+		}
+			"9023"
+		{
+			"name"						"Super Shotgun"
+			"item_logname"				"supershotgun"
+			"item_iconname"				"doubleshotgun"
+			"item_class"				"tf_weapon_doubleshotgun"
+			"show_in_armory"			"1"
+			"propername"				"1"
+			"item_name"					"Super Shotgun"
+			"item_description"			"Test"
+			"item_type_name"			"#TF_Weapon_DoubleBarrelShotgun"
+			"item_slot"					"secondary"
+			"anim_slot"					"ITEM2"
+			"image_inventory"			"backpack/weapons/w_models/w_supershotgun"
+			"model_world"				"models/weapons/w_models/w_supershotgun.mdl"
+			"model_player"				"models/weapons/v_models/v_supershotgun_soldier.mdl"
+			"attach_to_hands"			"2"
+			"used_by_classes"
+			{
+				"soldier"					"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"7 -6 -5"	
+			}
+			"attributes"
+			{
+				"scattergun has knockback"
+				{
+					"attribute_class"	"set_scattergun_has_knockback"
+					"value"				"1"
+				}
+				"mod horizontal spread"
+				{
+					"attribute_class"	"mod_horizontal_spread"
+					"value"				"1"
+				}
+				"apply self knockback hidden"
+				{
+					"attribute_class"	"apply_self_knockback"
+					"value"				"260"
+				}
+				"weapon enemy knockback mod mult hidden"
+				{
+					"attribute_class"	"weapon_enemy_knockback_mod"
+					"value"				"0.2"
+				}
+				"special taunt"
+				{
+					"attribute_class"	"special_taunt"
+					"value"				"1"
+				}
+			}			
+			"visuals"
+			{				
+				"sound_single_shot"		"Weapon_DoubleShotgun.Single"
+				"sound_burst"			"Weapon_DoubleShotgun.SingleCrit"
+			}
+			"mouse_pressed_sound"		"#ui/item_wood_weapon_drop.wav"
+			"drop_sound"				"#ui/item_metal_weapon_drop.wav"
 		}
 	}
 }
